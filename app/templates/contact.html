@@ -1,0 +1,54 @@
+</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Disaster Response Project</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Emergency Contact Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="emergency.html">Emergency Numbers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="map.html">Disaster Hotspots</a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div>
+<form action="/processing.html" method="POST">
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name='first_name'>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label">Last Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name='last_name'>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label">Emergency</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Explain your emergency" name='emergency'>
+  </div>
+  <button type="submit" class="btn btn-secondary">Submit</button>
+</form>
+</div>
+</body>
